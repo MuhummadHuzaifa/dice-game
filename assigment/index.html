@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Gmae</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="../index.html"> <span class="home">Back To Home</span></a>
+    <h1>Dice Game</h1>
+    <h2 id="msg"></h2>
+    <div class="container">
+        <div onclick="tryyourluck(1)" class="container_child">1</div>
+        <div onclick="tryyourluck(2)" class="container_child">2</div>
+        <div onclick="tryyourluck(3)" class="container_child">3</div>
+        <div onclick="tryyourluck(4)" class="container_child">4</div>
+        <div onclick="tryyourluck(5)" class="container_child">5</div>
+        <div onclick="tryyourluck(6)" class="container_child">6</div>
+    </div>
+
+    <div class="win_loss">
+        <div class="win_loss_child"> <b>User Number :</b> <span id="user_number">10</span> </div>
+        <div class="win_loss_child"> <b>Random number :</b> <span id="random_number">3</span> </div>
+        <div id="info_box_result" class="win_loss_child"> <b id="result_wl">You Win / Loss</b> </div>
+    </div>
+
+    <div class="result">
+        <div class="result_child"> <b>Turns :</b> <span id="turns">10</span> </div>
+        <div class="result_child"> <b>Win :</b> <span id="win">0</span> </div>
+        <div class="result_child"> <b>Loss :</b> <span id="loss">0</span> <div>
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
